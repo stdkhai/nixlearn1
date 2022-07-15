@@ -50,3 +50,28 @@ img {
     padding: 50px 15px;
     margin: 0 auto;
 }
+
+.buttons-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.buttons-box .button{
+    background: var(--darkblue);
+    
+    padding: 33px 0;
+    width: 255px;
+    color: var(--white);
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 5px 10px 1px rgba(0,0,0,0.4);
+}
+
+.buttons-box a{
+    margin: 50px 0 200px 0;
+}
