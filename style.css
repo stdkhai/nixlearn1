@@ -1,0 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/gotham-pro');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter&family=Montserrat&family=Roboto&display=swap');
+
+:root {
+    --darkblue: #001043;
+    --white: #FFFFFF;
+    --lightgrey: #DEDEDE;
+    --grey: #F4F4F4;
+    --darkgrey: #8E8E8E;
+    --blue: #298ce9;
+    --black: #000000;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.container {
+    max-width: 1330px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
